@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>은지티비</title>
+    <!-- 웹 폰트 링크 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Jua&family=Nanum+Pen+Script&family=Single+Day&display=swap" rel="stylesheet">
+    <!-- 스타일시트 링크 -->
+    <link rel="stylesheet" href="./css/mystyle.css">
+    
+    <!-- JavaScript -->
+    <!-- 수정하기 : 아래 '스크립트'를 'script'로 수정하세요. -->
+    <script src="./js/script.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1 id="logo">
+                <!-- Logo -->
+                <a href="#">은지 티비 </a>
+            </h1>
+        </div>
+
+        <nav>
+            <!-- 내비게이션 메뉴 -->
+            <a href="#main" class="menu">메인</a> 
+            <a href="#about" class="menu">은지</a> 
+            <a href="#gallery" class="menu">갤러리</a> 
+            <!-- <a href="./cal.html" class="menu">계산기</a> -->
+        </nav>
+    </header>
+
+    <section id="main">
+        <!-- 메인 섹션 환영 텍스트 -->
+        <div>
+            <h4>은지야 안녕.</h4>
+            <h5>Welcome</h5>
+            <h4>❤️❤️❤️</h4><BR>
+            <p>여기는 은지티비입니다.</p>
+            <button onclick="checkIn()">은지 안녕</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="title">은지</h2>
+        <!-- 소개 섹션 이미지 -->
+         <h1>강은지</h1>
+        <img src="" alt="사진">
+        <!-- 소개 섹션 텍스트 -->
+         <p>
+            
+         </p>
+         <ol>
+            
+        </ol>
+    </section>
+
+    <section id="gallery">
+        <h2 class="title">갤러리</h2>
+        <!-- 갤러리 섹션 이미지 -->
+        <div>
+            <img src="" alt="사진1" id="big">
+        </div>
+        <div>
+            <!-- 수정하기 : 아래 '온클릭'을 'onclick'으로 수정하세요.-->
+            <img src="" alt="사진2" class="small" onclick="showBig(this)">
+            <img src="" alt="사진3" class="small" onclick="showBig(this)">
+            <img src="" alt="사진2" class="small" onclick="showBig(this)">  
+            <img src="" alt="사진2" class="small" onclick="showBig(this)">    </div>
+
+    </section>
+
+    <footer>
+        Copyright&copy; 김우람. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
